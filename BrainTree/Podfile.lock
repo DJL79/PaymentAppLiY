@@ -1,0 +1,76 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Braintree (4.23.0):
+    - Braintree/Card (= 4.23.0)
+    - Braintree/Core (= 4.23.0)
+    - Braintree/PayPal (= 4.23.0)
+    - Braintree/UI (= 4.23.0)
+  - Braintree/Card (4.23.0):
+    - Braintree/Core
+  - Braintree/Core (4.23.0)
+  - Braintree/PaymentFlow (4.23.0):
+    - Braintree/Card
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPal (4.23.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.23.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.23.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.23.0)
+  - Braintree/UI (4.23.0):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/UnionPay (4.23.0):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (7.1.0):
+    - BraintreeDropIn/DropIn (= 7.1.0)
+  - BraintreeDropIn/DropIn (7.1.0):
+    - Braintree/Card (~> 4.23)
+    - Braintree/Core (~> 4.23)
+    - Braintree/PaymentFlow (~> 4.23)
+    - Braintree/PayPal (~> 4.23)
+    - Braintree/UnionPay (~> 4.23)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (7.1.0)
+  - BraintreeVisaCheckout (4.0.1):
+    - Braintree/Core (~> 4.0)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - Toast-Swift (4.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Braintree
+  - BraintreeDropIn
+  - BraintreeVisaCheckout
+  - NVActivityIndicatorView
+  - Toast-Swift (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Braintree
+    - BraintreeDropIn
+    - BraintreeVisaCheckout
+    - NVActivityIndicatorView
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Braintree: b5841b9b1c1dadc86959db3e29d36099b67f91bf
+  BraintreeDropIn: a019fcbf4edb87c55780ec01d5db3998b19164ce
+  BraintreeVisaCheckout: f49a4bc10c0832b128c475eaba021a7b36530e72
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+
+PODFILE CHECKSUM: 3bafeba7319c5eab048c051cc2a00793dc48a076
+
+COCOAPODS: 1.6.1
