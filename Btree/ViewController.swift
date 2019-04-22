@@ -10,8 +10,8 @@ import UIKit
 import BraintreeDropIn
 import Braintree
 
-
 class ViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,6 +25,7 @@ class ViewController: UIViewController {
                 request.cardDisabled = false
                 request.paypalDisabled = false
                 request.amount = "10"
+                
                 let dropIn = BTDropInController(authorization: clientToken, request: request)
                 { (controller, result, error) in
                     if (error != nil) {
@@ -33,7 +34,12 @@ class ViewController: UIViewController {
                     } else if (result?.isCancelled == true) {
                         Utils.showToast(self.view, Utils.str_cancel)
                     } else if let result = result {
-                        Utils.showToast(self.view, Utils.str_payment_success)
+                        let nonce = result.paymentMethod?.nonce
+                        Utils.sendRequest("checkout.php", .post, ["paymentnonce":nonce!, "amount":200]) { (res, data) in
+                            let result = data as? String ?? Utils.str_err_server
+                            Utils.showToast(self.view, result)
+                        }
+                        
                     }
                     controller.dismiss(animated: true, completion: nil)
                 }

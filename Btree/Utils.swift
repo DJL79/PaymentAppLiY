@@ -15,7 +15,8 @@ import Toast_Swift
 class Utils{
     
     // set base url to call web service
-    static var base_url = "http://192.168.1.113/bt/"
+    
+    static var base_url = "http://Your Local IP Address/Backend/"
     
     // strings
     
