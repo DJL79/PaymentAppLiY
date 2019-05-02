@@ -10,45 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Btree/ViewController.swift"
-            timestampString = "578491025.197934"
+            timestampString = "578521823.460692"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "onPurchase(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.BTDropInController, Swift.Optional&lt;__C.BTDropInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Bool, Any) -&gt; () in BTree.ViewController.onPurchase(Any) -&gt; ()"
-                  moduleName = "BTree"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Work/mobile/BTree/Btree/ViewController.swift"
-                  timestampString = "577396831.111672"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "1904">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Bool, Any) -&gt; () in closure #1 (__C.BTDropInController, Swift.Optional&lt;__C.BTDropInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Bool, Any) -&gt; () in BTree.ViewController.onPurchase(Any) -&gt; ()"
-                  moduleName = "BTree"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Work/mobile/BTree/Btree/ViewController.swift"
-                  timestampString = "577396831.113166"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "49">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -58,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Btree/ViewController.swift"
-            timestampString = "578491025.198352"
+            timestampString = "578521823.461004"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "onPurchase(_:)"
             landmarkType = "7">
          </BreakpointContent>

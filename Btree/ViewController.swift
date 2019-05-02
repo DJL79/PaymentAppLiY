@@ -34,14 +34,13 @@ class ViewController: UIViewController {
                 let dropIn = BTDropInController(authorization: clientToken, request: self.request)  // define drop in dialog
                 { (controller, result, error) in                                        // get result from Braintree
                     if (error != nil) {                                                 // if it was failed
+                        controller.dismiss(animated: true, completion: nil)         // dismiss dropin dialog
                         print(error)                                                    // print error
                         Utils.showToast(self.view, (error?.localizedDescription)!)      // show toast error
                     } else if (result?.isCancelled == true) {
+                        controller.dismiss(animated: true, completion: nil)         // dismiss dropin dialog
                         Utils.showToast(self.view, Utils.str_cancel)                    // show toast if user cancels payment processing
                     } else if let result = result {                                     // proceed payment
-                        
-                        
-                        
                         switch result.paymentOptionType {
                         case .applePay ,.payPal,.masterCard,.discover,.visa:
                             // Here Result success  check paymentMethod not nil if nil then user select applePay
