@@ -7,6 +7,10 @@ target 'BTree' do
 
   # Pods for BTree
   pod 'Braintree'
+  pod 'Braintree/PayPal'
+  pod 'Braintree/Venmo'
+  pod 'Braintree/Apple-Pay'
+  pod 'Braintree/3D-Secure'
   pod 'BraintreeDropIn'
   pod 'BraintreeVisaCheckout'
   

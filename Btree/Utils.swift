@@ -18,7 +18,7 @@ class Utils{
     
     // set base url to call web service
     
-    static var base_url = "http://Your IP Address/Backend/"
+    static var base_url = "http://192.168.1.113/bt/"
     
     // strings
     

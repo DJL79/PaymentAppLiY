@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.developer.in-app-payments</key>
 	<array>
-		<string>merchant.com.topstar.braintree</string>
+		<string>merchant.topstar.braintree</string>
 	</array>
 </dict>
 </plist>
