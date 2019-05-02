@@ -6,6 +6,8 @@
 //  Copyright © 2018 TopStar. All rights reserved.
 //
 
+// Util files 
+
 import Foundation
 import Alamofire
 import NVActivityIndicatorView
@@ -16,7 +18,7 @@ class Utils{
     
     // set base url to call web service
     
-    static var base_url = "http://Your Local IP Address/Backend/"
+    static var base_url = "http://Your IP Address/Backend/"
     
     // strings
     

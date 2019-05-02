@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.3
+        
+        // Add Url Scheme in Appdelegate
         BTAppSwitch.setReturnURLScheme("com.topstar.braintree.payment")
         return true
     }
